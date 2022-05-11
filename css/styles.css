@@ -1,0 +1,38 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.caja{
+    width: 150px;
+    height: 150px;
+}
+
+.contenedor{
+    height: 100vh;
+    border: 4px solid orange;
+    display: flex; /*los hijos se convierten en elementos en línea*/
+    /*se alinean los hijos en el eje primario con justify content*/
+    justify-content: center; 
+    /* "flex-start" alinea los hijos al comienzo del eje (la izq)
+    "center" centra los elementos en el eje 
+    "flex-end" alinea los hijos  al final del eje (la drch)
+    "space-between" coloca en ambos extremos y reparte los espacios
+    "space-around" reparte los espacios entre todos */
+    align-items: centercd;
+    /* con "align-items" se alinean los hijos en el eje secundario */
+    /* "flex-start" coloca al inicio del eje (arriba)
+    "center" centra los elementos en el eje 
+    "flex-end" alinea los hijos  al final del eje (abajo)
+    "stretch" si los elementos no tienen altura definidaviguala todas al elemento grande */
+}
+
+.azul{ background-color: cornflowerblue; }
+
+.roja{ background-color: darkred; }
+
+.verde{ background-color: darkcyan; }
+
+.morada{ background-color: purple; }
